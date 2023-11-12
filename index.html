@@ -10,12 +10,12 @@
 <body>
     <script src="script.js"></script>
     <nav id="desktop-nav">
-        <div class="logo">Robo Otto</div>
+        <div class="logo"><a href="index.html">Robo Otto</a></div>
         <div>
             <ul class="nav-links">
                 <li><a href="about.html">Sobre</a></li>
-                <li><a href="criacao.html">Criação</a></li>
                 <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </div>
@@ -30,12 +30,202 @@
             </div>
             <div class="menu-links">
                 <li><a href="about.html" onclick="toggleMenu()">Sobre</a></li>
-                <li><a href="criacao.html" onclick="toggleMenu()">Criação</a></li>
                 <li><a href="tecnologias.html" onclick="toggleMenu()">Tecnologias</a></li>
+                <li><a href="criacao.html" onclick="toggleMenu()">Criação</a></li>
                 <li><a href="contato.html" onclick="toggleMenu()">Contato</a></li>
             </div>
         </div>
     </nav>
-   
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/foto1.png" alt="Robo Otto">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Olá, Eu Sou </p>
+            <h1 class="title"> Otto </h1>
+            <p class="section__text__p2">Seu Robô Detector de Ruídos Sonoros</p>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Conheça Mais</p>
+        <h1 class="title2"> Sobre o Projeto </h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/foto2.jpg" alt="Robo Otto Sobre" class="about-pic">
+            </div>
+            <div class="text-container"> 
+                <p>Otto é um robô capaz de monitorar os níveis de decibéis em ambientes, atuando como um guardião da saúde auditiva. Este robô proativo e acessível visa conscientizar sobre a importância da prevenção de danos à audição, oferecendo uma solução prática para um estilo de vida mais saudável em um mundo cada vez mais ruidoso.</p>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='about.html'">Saiba Mais</button>
+            </div>
+
+        </div>
+    </section>
+    <section id="tecnologias">
+        <p class="section__text__p1">Entenda sobre as</p>
+        <h1 class="title2"> Técnologias e Componentes Utilizadas </h1>
+        <div class="tecnologias-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Placas de MDF</h3>
+                            <p>Carcaça do Robô</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Placa Arduino Uno R3</h3>
+                            <p>Base do circuito e do Software</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Sensor de Som KY-038</h3>
+                            <p>Medição da Intensidade Sonora</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Lanternas de LED</h3>
+                            <p>Dispositivo de Saída</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Fonte Elétrica 12V</h3>
+                            <p>Componente de Alimentação</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Protoboard para Arduino</h3>
+                            <p>Construção dos Circuitos</p>
+                          </div>
+                        </article>
+      
+                    </div>
+
+                  
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="location.href='about.html'">Saiba Mais</button>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="criacao">
+        <p class="section__text__p1">Veja como foi a</p>
+        <h1 class="title">Criação do Projeto</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/foto3.jpeg"
+                  alt="Corte MDF"
+                  class="criacao-img"
+                />
+              </div>
+              <h2 class="tecnologias-sub-title criacao-title">Corte da Placa de MDF</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 criacao-btn"
+                  onclick="location.href='criacao.html'"
+                >
+                Veja Mais
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/foto4.jpeg"
+                  alt="Criação Circuito"
+                  class="criacao-img"
+                />
+              </div>
+              <h2 class="tecnologias-sub-title criacao-title">Criação do Circuito</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 criacao-btn"
+                  onclick="location.href='criacao.html'"
+                >
+                Veja Mais
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/foto1.png"
+                  alt="Robo Pronto"
+                  class="criacao-img"
+                />
+              </div>
+              <h2 class="tecnologias-sub-title criacao-title">Robô Pronto e Funcional</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 criacao-btn"
+                  onclick="location.href='criacao.html'"
+                >
+                  Veja Mais
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>André Rodrigues &nbsp&nbsp  Gustavo Camargo &nbsp&nbsp  Pedro Lemos &nbsp&nbsp  Victor Precoma</p>
+    </footer>
+
 </body>
 </html>

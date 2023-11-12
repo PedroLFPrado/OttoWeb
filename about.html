@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Robo Otto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    
+    <script src="script.js"></script>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Robo Otto</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Robo Otto</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="tecnologias.html" onclick="toggleMenu()">Tecnologias</a></li>
+                <li><a href="criacao.html" onclick="toggleMenu()">Criação</a></li>
+                <li><a href="contato.html" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+  
+    <section id="about">
+        <p class="section__text__p1">Conheça Mais</p>
+        <h1 class="title3"> Sobre o Projeto </h1>
+        <div class="section-container">
+            <div class="text-container"> 
+                <p>Vivemos em um mundo cada vez mais dinâmico, onde o ritmo acelerado da vida muitas vezes nos expõe a ambientes sonoros desafiadores. A preocupação com a saúde auditiva torna-se, portanto, uma prioridade essencial. É nesse contexto que apresentamos nosso projeto inovador: um robô inteligente capaz de monitorar os níveis de decibéis em um ambiente, agindo como um guardião silencioso da saúde auricular.</p>
+                <p>O avanço tecnológico proporcionou-nos uma gama de dispositivos e sistemas que melhoram a qualidade de vida, e nosso projeto destaca-se ao oferecer uma solução prática e preventiva. Equipado com sensores de última geração, nosso robô é projetado para avaliar os níveis de ruído em tempo real, identificando se os mesmos atingem patamares prejudiciais à audição humana.</p>
+                <p>Ao unir a inovação tecnológica com a preocupação com a saúde auditiva, nosso projeto visa contribuir para um estilo de vida mais saudável e sustentável. Adotando abordagens proativas, acreditamos que a prevenção de danos à audição é fundamental, e nosso robô surge como uma resposta eficaz e acessível para essa necessidade crescente em nossa sociedade moderna.</p>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/foto2.jpg" alt="Robo Otto Sobre" class="about-pic">
+            </div>
+ 
+        </div>
+    </section>
+  
+    <footer class="ft-1">
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>André Rodrigues &nbsp&nbsp  Gustavo Camargo &nbsp&nbsp  Pedro Lemos &nbsp&nbsp  Victor Precoma</p>
+    </footer>
+
 </body>
 </html>

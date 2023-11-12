@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Otto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Robo Otto</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Robo Otto</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="tecnologias.html" onclick="toggleMenu()">Tecnologias</a></li>
+                <li><a href="criacao.html" onclick="toggleMenu()">Criação</a></li>
+                <li><a href="contato.html" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+  
+    <section id="about">
+
+        <h1 class="title2"> Processo de Criação </h1>
+        <div class="section-container">
+            <div class="text-container"> 
+                <h3> Cortes das Placas de MDF </h3>
+                <p>Iniciamos nosso processo de criação do projeto comprando os componentes necessários na internet, porém as placas de MDF, essenciais para a carcaça do robô, podia ser encontrada e cortada no Espaço Maker, no bloco B. Por conta disso, o primeiro passo seguido pelo grupo foi fazer a carcaça do robô com esses MDFs presentes no Laboratório.</p>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/foto3.jpeg" alt="MDF" class="about-pic">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-container">
+            <div class="text-container"> 
+                <h3> Montagem do Circuito</h3>
+                <p>Quando os componentes eletrônicos chegaram, a montagem do circuito elétrico foi a próxima etapa do nosso projeto. Com cuidado, conectamos fios, resistores, sensores de som, com a placa Arduino e o Protoboard, seguindo o esquema previamente planejado </p>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/foto4.jpeg" alt="Arduino" class="about-pic">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-container">
+            <div class="text-container"> 
+                <h3> Finalização do Projeto </h3>
+                <p>Com a junção da carcaça em MDF que havia sido cortada e encaixada corretamente, além do circuito com todas as peças conectadas, bastava a criação do software que responderia às entradas do sensor KY-038, enviando uma saída aos LEDs posicionados na barriga do robô. Com isso concluído, bastou a junção da carcaça com o circuito e Otto estaria pronto para uso e testes.  </p>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/foto1.png" alt="KY-038" class="about-pic">
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="criacao.html">Criação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>André Rodrigues &nbsp&nbsp  Gustavo Camargo &nbsp&nbsp  Pedro Lemos &nbsp&nbsp  Victor Precoma</p>
+    </footer>
+
+</body>
+</html>
